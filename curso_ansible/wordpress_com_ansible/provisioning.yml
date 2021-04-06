@@ -79,6 +79,7 @@
         - { regex: 'database_name_here', value: 'wordpress_db' }
         - { regex: 'username_here', value: 'wordpress_use' }
         - { regex: 'password_here', value: '12345' }
+        - { regex: 'localhost', value: '172.17.177.42'}
       
     - name: 'Configura Apache para servir o wordpress'
       copy:
